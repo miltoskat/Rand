@@ -51,5 +51,83 @@
             landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RandomNumber/ViewController.swift"
+            timestampString = "488995279.999879"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RandomNumber.ViewController.myTimer0.getter : __ObjC.NSTimer"
+                  moduleName = "RandomNumber"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/KeyFr3ak/Documents/Github/Rand/RandomNumber/RandomNumber/ViewController.swift"
+                  timestampString = "488995280.115496"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RandomNumber.ViewController.myTimer0.setter : __ObjC.NSTimer"
+                  moduleName = "RandomNumber"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/KeyFr3ak/Documents/Github/Rand/RandomNumber/RandomNumber/ViewController.swift"
+                  timestampString = "488995280.117075"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RandomNumber.ViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; RandomNumber.ViewController"
+                  moduleName = "RandomNumber"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/KeyFr3ak/Documents/Github/Rand/RandomNumber/RandomNumber/ViewController.swift"
+                  timestampString = "488995280.117381"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "1288">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RandomNumber.ViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;RandomNumber.ViewController&gt;"
+                  moduleName = "RandomNumber"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/KeyFr3ak/Documents/Github/Rand/RandomNumber/RandomNumber/ViewController.swift"
+                  timestampString = "488995280.117531"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "1228">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

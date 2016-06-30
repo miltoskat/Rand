@@ -487,6 +487,7 @@
 				1324EA601D2491C300EB0306 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1324EA611D2491C300EB0306 /* Build configuration list for PBXNativeTarget "RandomNumberTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +496,7 @@
 				1324EA631D2491C300EB0306 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1324EA641D2491C300EB0306 /* Build configuration list for PBXNativeTarget "RandomNumberUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +505,7 @@
 				1324EA661D2491C300EB0306 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
