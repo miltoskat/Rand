@@ -3,4 +3,6 @@
 
 **CPU USAGE**
 
-![CPU USAGE](https://raw.githubusercontent.com/miltoskat/Rand/gh-pages/Images/cpuUsage.png?token=APlxXxgM8_uWHKpXKg2W4w2WcV5Ix46eks5XfzBPwA%3D%3D)
+![CPU USAGE](https://miltoskat.github.io/Rand/Images/cpuUsage.png)
+While it is running it computes 20 independent random numbers refreshing with an independent Double time interval between 0 and 1 second. That means 20 numbers with 20 different time intervals changing after every refresh.
+Apparently that takes some proccessing power to accomplish.
