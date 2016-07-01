@@ -14,6 +14,7 @@
 		1324EA441D2491C300EB0306 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1324EA421D2491C300EB0306 /* LaunchScreen.storyboard */; };
 		1324EA4F1D2491C300EB0306 /* RandomNumberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1324EA4E1D2491C300EB0306 /* RandomNumberTests.swift */; };
 		1324EA5A1D2491C300EB0306 /* RandomNumberUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1324EA591D2491C300EB0306 /* RandomNumberUITests.swift */; };
+		135D844A1D27000F0054A25B /* button1.png in Resources */ = {isa = PBXBuildFile; fileRef = 135D84491D27000F0054A25B /* button1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		1324EA551D2491C300EB0306 /* Rand.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Rand.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1324EA591D2491C300EB0306 /* RandomNumberUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomNumberUITests.swift; sourceTree = "<group>"; };
 		1324EA5B1D2491C300EB0306 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		135D84491D27000F0054A25B /* button1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button1.png; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				1324EA391D2491C300EB0306 /* AppDelegate.swift */,
 				1324EA3B1D2491C300EB0306 /* ViewController.swift */,
+				135D84491D27000F0054A25B /* button1.png */,
 				1324EA3D1D2491C300EB0306 /* Main.storyboard */,
 				1324EA401D2491C300EB0306 /* Assets.xcassets */,
 				1324EA421D2491C300EB0306 /* LaunchScreen.storyboard */,
@@ -235,6 +238,7 @@
 				1324EA441D2491C300EB0306 /* LaunchScreen.storyboard in Resources */,
 				1324EA411D2491C300EB0306 /* Assets.xcassets in Resources */,
 				1324EA3F1D2491C300EB0306 /* Main.storyboard in Resources */,
+				135D844A1D27000F0054A25B /* button1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
