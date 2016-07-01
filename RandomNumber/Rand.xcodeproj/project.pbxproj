@@ -34,17 +34,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1324EA361D2491C300EB0306 /* RandomNumber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomNumber.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1324EA361D2491C300EB0306 /* Rand.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rand.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1324EA391D2491C300EB0306 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1324EA3B1D2491C300EB0306 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1324EA3E1D2491C300EB0306 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1324EA401D2491C300EB0306 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1324EA431D2491C300EB0306 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1324EA451D2491C300EB0306 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1324EA4A1D2491C300EB0306 /* RandomNumberTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RandomNumberTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1324EA4A1D2491C300EB0306 /* Rand.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Rand.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1324EA4E1D2491C300EB0306 /* RandomNumberTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomNumberTests.swift; sourceTree = "<group>"; };
 		1324EA501D2491C300EB0306 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1324EA551D2491C300EB0306 /* RandomNumberUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RandomNumberUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1324EA551D2491C300EB0306 /* Rand.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Rand.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1324EA591D2491C300EB0306 /* RandomNumberUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomNumberUITests.swift; sourceTree = "<group>"; };
 		1324EA5B1D2491C300EB0306 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -87,9 +87,9 @@
 		1324EA371D2491C300EB0306 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1324EA361D2491C300EB0306 /* RandomNumber.app */,
-				1324EA4A1D2491C300EB0306 /* RandomNumberTests.xctest */,
-				1324EA551D2491C300EB0306 /* RandomNumberUITests.xctest */,
+				1324EA361D2491C300EB0306 /* Rand.app */,
+				1324EA4A1D2491C300EB0306 /* Rand.xctest */,
+				1324EA551D2491C300EB0306 /* Rand.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -128,9 +128,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1324EA351D2491C300EB0306 /* RandomNumber */ = {
+		1324EA351D2491C300EB0306 /* Rand */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1324EA5E1D2491C300EB0306 /* Build configuration list for PBXNativeTarget "RandomNumber" */;
+			buildConfigurationList = 1324EA5E1D2491C300EB0306 /* Build configuration list for PBXNativeTarget "Rand" */;
 			buildPhases = (
 				1324EA321D2491C300EB0306 /* Sources */,
 				1324EA331D2491C300EB0306 /* Frameworks */,
@@ -140,14 +140,14 @@
 			);
 			dependencies = (
 			);
-			name = RandomNumber;
+			name = Rand;
 			productName = RandomNumber;
-			productReference = 1324EA361D2491C300EB0306 /* RandomNumber.app */;
+			productReference = 1324EA361D2491C300EB0306 /* Rand.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1324EA491D2491C300EB0306 /* RandomNumberTests */ = {
+		1324EA491D2491C300EB0306 /* RandTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1324EA611D2491C300EB0306 /* Build configuration list for PBXNativeTarget "RandomNumberTests" */;
+			buildConfigurationList = 1324EA611D2491C300EB0306 /* Build configuration list for PBXNativeTarget "RandTests" */;
 			buildPhases = (
 				1324EA461D2491C300EB0306 /* Sources */,
 				1324EA471D2491C300EB0306 /* Frameworks */,
@@ -158,14 +158,14 @@
 			dependencies = (
 				1324EA4C1D2491C300EB0306 /* PBXTargetDependency */,
 			);
-			name = RandomNumberTests;
+			name = RandTests;
 			productName = RandomNumberTests;
-			productReference = 1324EA4A1D2491C300EB0306 /* RandomNumberTests.xctest */;
+			productReference = 1324EA4A1D2491C300EB0306 /* Rand.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		1324EA541D2491C300EB0306 /* RandomNumberUITests */ = {
+		1324EA541D2491C300EB0306 /* RandUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1324EA641D2491C300EB0306 /* Build configuration list for PBXNativeTarget "RandomNumberUITests" */;
+			buildConfigurationList = 1324EA641D2491C300EB0306 /* Build configuration list for PBXNativeTarget "RandUITests" */;
 			buildPhases = (
 				1324EA511D2491C300EB0306 /* Sources */,
 				1324EA521D2491C300EB0306 /* Frameworks */,
@@ -176,9 +176,9 @@
 			dependencies = (
 				1324EA571D2491C300EB0306 /* PBXTargetDependency */,
 			);
-			name = RandomNumberUITests;
+			name = RandUITests;
 			productName = RandomNumberUITests;
-			productReference = 1324EA551D2491C300EB0306 /* RandomNumberUITests.xctest */;
+			productReference = 1324EA551D2491C300EB0306 /* Rand.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -207,7 +207,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1324EA311D2491C300EB0306 /* Build configuration list for PBXProject "RandomNumber" */;
+			buildConfigurationList = 1324EA311D2491C300EB0306 /* Build configuration list for PBXProject "Rand" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -220,9 +220,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1324EA351D2491C300EB0306 /* RandomNumber */,
-				1324EA491D2491C300EB0306 /* RandomNumberTests */,
-				1324EA541D2491C300EB0306 /* RandomNumberUITests */,
+				1324EA351D2491C300EB0306 /* Rand */,
+				1324EA491D2491C300EB0306 /* RandTests */,
+				1324EA541D2491C300EB0306 /* RandUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -285,12 +285,12 @@
 /* Begin PBXTargetDependency section */
 		1324EA4C1D2491C300EB0306 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1324EA351D2491C300EB0306 /* RandomNumber */;
+			target = 1324EA351D2491C300EB0306 /* Rand */;
 			targetProxy = 1324EA4B1D2491C300EB0306 /* PBXContainerItemProxy */;
 		};
 		1324EA571D2491C300EB0306 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1324EA351D2491C300EB0306 /* RandomNumber */;
+			target = 1324EA351D2491C300EB0306 /* Rand */;
 			targetProxy = 1324EA561D2491C300EB0306 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -408,7 +408,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = miltoskat.RandomNumber;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Rand;
 				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
@@ -423,7 +423,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = miltoskat.RandomNumber;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Rand;
 				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
@@ -435,8 +435,8 @@
 				INFOPLIST_FILE = RandomNumberTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "G-Tech.RandomNumberTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RandomNumber.app/RandomNumber";
+				PRODUCT_NAME = Rand;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rand.app/Rand";
 			};
 			name = Debug;
 		};
@@ -447,8 +447,8 @@
 				INFOPLIST_FILE = RandomNumberTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "G-Tech.RandomNumberTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RandomNumber.app/RandomNumber";
+				PRODUCT_NAME = Rand;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rand.app/Rand";
 			};
 			name = Release;
 		};
@@ -458,7 +458,7 @@
 				INFOPLIST_FILE = RandomNumberUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "G-Tech.RandomNumberUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Rand;
 				TEST_TARGET_NAME = RandomNumber;
 			};
 			name = Debug;
@@ -469,7 +469,7 @@
 				INFOPLIST_FILE = RandomNumberUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "G-Tech.RandomNumberUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Rand;
 				TEST_TARGET_NAME = RandomNumber;
 			};
 			name = Release;
@@ -477,7 +477,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1324EA311D2491C300EB0306 /* Build configuration list for PBXProject "RandomNumber" */ = {
+		1324EA311D2491C300EB0306 /* Build configuration list for PBXProject "Rand" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1324EA5C1D2491C300EB0306 /* Debug */,
@@ -486,7 +486,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1324EA5E1D2491C300EB0306 /* Build configuration list for PBXNativeTarget "RandomNumber" */ = {
+		1324EA5E1D2491C300EB0306 /* Build configuration list for PBXNativeTarget "Rand" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1324EA5F1D2491C300EB0306 /* Debug */,
@@ -495,7 +495,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1324EA611D2491C300EB0306 /* Build configuration list for PBXNativeTarget "RandomNumberTests" */ = {
+		1324EA611D2491C300EB0306 /* Build configuration list for PBXNativeTarget "RandTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1324EA621D2491C300EB0306 /* Debug */,
@@ -504,7 +504,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1324EA641D2491C300EB0306 /* Build configuration list for PBXNativeTarget "RandomNumberUITests" */ = {
+		1324EA641D2491C300EB0306 /* Build configuration list for PBXNativeTarget "RandUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1324EA651D2491C300EB0306 /* Debug */,

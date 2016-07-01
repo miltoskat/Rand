@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:RandomNumber.xcodeproj">
+      location = "self:/Users/KeyFr3ak/Documents/Github/Rand/RandomNumber/Rand.xcodeproj">
    </FileRef>
 </Workspace>

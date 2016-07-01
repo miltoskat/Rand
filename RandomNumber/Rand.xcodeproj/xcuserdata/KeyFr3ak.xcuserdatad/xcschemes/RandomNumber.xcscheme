@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1324EA351D2491C300EB0306"
-               BuildableName = "RandomNumber.app"
-               BlueprintName = "RandomNumber"
-               ReferencedContainer = "container:RandomNumber.xcodeproj">
+               BuildableName = "Rand.app"
+               BlueprintName = "Rand"
+               ReferencedContainer = "container:Rand.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1324EA491D2491C300EB0306"
-               BuildableName = "RandomNumberTests.xctest"
-               BlueprintName = "RandomNumberTests"
-               ReferencedContainer = "container:RandomNumber.xcodeproj">
+               BuildableName = "Rand.xctest"
+               BlueprintName = "RandTests"
+               ReferencedContainer = "container:Rand.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1324EA541D2491C300EB0306"
-               BuildableName = "RandomNumberUITests.xctest"
-               BlueprintName = "RandomNumberUITests"
-               ReferencedContainer = "container:RandomNumber.xcodeproj">
+               BuildableName = "Rand.xctest"
+               BlueprintName = "RandUITests"
+               ReferencedContainer = "container:Rand.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1324EA351D2491C300EB0306"
-            BuildableName = "RandomNumber.app"
-            BlueprintName = "RandomNumber"
-            ReferencedContainer = "container:RandomNumber.xcodeproj">
+            BuildableName = "Rand.app"
+            BlueprintName = "Rand"
+            ReferencedContainer = "container:Rand.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1324EA351D2491C300EB0306"
-            BuildableName = "RandomNumber.app"
-            BlueprintName = "RandomNumber"
-            ReferencedContainer = "container:RandomNumber.xcodeproj">
+            BuildableName = "Rand.app"
+            BlueprintName = "Rand"
+            ReferencedContainer = "container:Rand.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1324EA351D2491C300EB0306"
-            BuildableName = "RandomNumber.app"
-            BlueprintName = "RandomNumber"
-            ReferencedContainer = "container:RandomNumber.xcodeproj">
+            BuildableName = "Rand.app"
+            BlueprintName = "Rand"
+            ReferencedContainer = "container:Rand.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
