@@ -158,6 +158,7 @@ class ViewController: UIViewController {
         myTimer16.invalidate()
         myTimer17.invalidate()
         myTimer18.invalidate()
+        myTimer19.invalidate()
         myTimer0 = NSTimer.scheduledTimerWithTimeInterval(repeater, target: self, selector: #selector(ViewController.randomizer0), userInfo: nil, repeats: true)
         myTimer1 = NSTimer.scheduledTimerWithTimeInterval(repeater, target: self, selector: #selector(ViewController.randomizer1), userInfo: nil, repeats: true)
         myTimer2 = NSTimer.scheduledTimerWithTimeInterval(repeater, target: self, selector: #selector(ViewController.randomizer2), userInfo: nil, repeats: true)
