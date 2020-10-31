@@ -2,7 +2,7 @@
 
 ## What is Rand?
 Rand is a simple **iOS** application that calculates an ***20*** digit *random* number.
-  It is completely build in Swift so it is lightweight, and it *features* a **START** and a **STOP** button that until now work flawlessly.
+  It is completely built in Swift so it is lightweight and it *features* a **START** and a **STOP** button, that until now work flawlessly.
 
 ## CPU USAGE
 
@@ -19,6 +19,16 @@ Rand 2.0 Update
 ## Contributors
 * Miltos Katifedenios (Owner of this repo)
 * Vasilis Sakkas
+
+## FAQ
+
+- **How do I run this app?**
+    - First, you need to clone this repo, after that you need to open it using xCode, select the device you want to run it and hit CMD + R.
+- **Is this project finished?**
+    - No, while the app is finished and works as expected, there are some things such as **code clean-up and refactor, improve UI, etc.** that are not done yet. 
+- **How can I help with the app?**
+    - You can check in the **Projects** tab, if there are is anything in the Todo list.
+    - Also, remember to keep the code clean. Pull Requests with ugly code will be declined.
 
 ## Want to contribute?
 
