@@ -8,8 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-    
+class ViewController: UIViewController {    
     @IBOutlet weak var screenLabel: UILabel!
     @IBOutlet weak var number0: UILabel!
     @IBOutlet weak var number1: UILabel!
@@ -33,9 +32,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var number19: UILabel!
     @IBOutlet weak var startButton:UIButton!
     @IBOutlet weak var stopButton: UIButton!
-
     var timers : [Timer] = []
-
     var repeater:Double = 0.0
 
     override func loadView() {
@@ -47,22 +44,18 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
     
     @IBAction func startButton(sender: AnyObject) {
-        print("Start BTN Pressed")
         startTimers()
     }
     
     @IBAction func stopButton(sender: AnyObject) {
-        print("Stop BTN Pressed")
         stopTimers()
     }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
     @objc func randomizer0(){
@@ -74,7 +67,6 @@ class ViewController: UIViewController {
     @objc func randomizer2(){
         number2.text = ("\(arc4random_uniform(10))")
     }
-
     @objc func randomizer3(){
         number3.text = ("\(arc4random_uniform(10))")
     }
