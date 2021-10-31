@@ -11,10 +11,11 @@ While it is running it computes 20 independent random numbers refreshing with an
 Apparently that takes some processing power to accomplish.
 
 ## Changelog
-Rand 2.0 Update
-* Updated for iOS 14
+Rand 3.0 Update
+* Updated for iOS 15.0.2
 * UI Improvements
 * Bug Fixes
+* Many new features...
 
 ## Contributors
 * Miltos Katifedenios (Owner of this repo)
