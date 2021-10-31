@@ -33,28 +33,18 @@ class ViewController: UIViewController {
     @IBOutlet weak var number19: UILabel!
     @IBOutlet weak var startButton:UIButton!
     @IBOutlet weak var stopButton: UIButton!
-    var myTimer0 : Timer = Timer()
-    var myTimer1 : Timer = Timer()
-    var myTimer2 : Timer = Timer()
-    var myTimer3 : Timer = Timer()
-    var myTimer4 : Timer = Timer()
-    var myTimer5 : Timer = Timer()
-    var myTimer6 : Timer = Timer()
-    var myTimer7 : Timer = Timer()
-    var myTimer8 : Timer = Timer()
-    var myTimer9 : Timer = Timer()
-    var myTimer10 : Timer = Timer()
-    var myTimer11 : Timer = Timer()
-    var myTimer12 : Timer = Timer()
-    var myTimer13 : Timer = Timer()
-    var myTimer14 : Timer = Timer()
-    var myTimer15 : Timer = Timer()
-    var myTimer16 : Timer = Timer()
-    var myTimer17 : Timer = Timer()
-    var myTimer18 : Timer = Timer()
-    var myTimer19 : Timer = Timer()
+
+    var timers : [Timer] = []
+
     var repeater:Double = 0.0
-    
+
+    override func loadView() {
+        for index in 0...19 {
+            timers.append(Timer())
+        }
+        super.loadView()
+    }
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -62,12 +52,12 @@ class ViewController: UIViewController {
     
     @IBAction func startButton(sender: AnyObject) {
         print("Start BTN Pressed")
-        start()
+        startTimers()
     }
     
     @IBAction func stopButton(sender: AnyObject) {
         print("Stop BTN Pressed")
-        stop()
+        stopTimers()
     }
     
     override func didReceiveMemoryWarning() {
@@ -140,70 +130,18 @@ class ViewController: UIViewController {
         repeater = (Double(Double(arc4random_uniform(1) / 10)))
     }
     
-    func start(){
-        myTimer0.invalidate()
-        myTimer1.invalidate()
-        myTimer2.invalidate()
-        myTimer3.invalidate()
-        myTimer4.invalidate()
-        myTimer5.invalidate()
-        myTimer6.invalidate()
-        myTimer7.invalidate()
-        myTimer8.invalidate()
-        myTimer9.invalidate()
-        myTimer10.invalidate()
-        myTimer11.invalidate()
-        myTimer12.invalidate()
-        myTimer13.invalidate()
-        myTimer14.invalidate()
-        myTimer15.invalidate()
-        myTimer16.invalidate()
-        myTimer17.invalidate()
-        myTimer18.invalidate()
-        myTimer19.invalidate()
-        myTimer0 = Timer.scheduledTimer(timeInterval: repeater, target: self, selector: #selector(randomizer0), userInfo: nil, repeats: true)
-        myTimer1 = Timer.scheduledTimer(timeInterval: repeater, target: self, selector: #selector(ViewController.randomizer1), userInfo: nil, repeats: true)
-        myTimer2 = Timer.scheduledTimer(timeInterval: repeater, target: self, selector: #selector(ViewController.randomizer2), userInfo: nil, repeats: true)
-        myTimer3 = Timer.scheduledTimer(timeInterval: repeater, target: self, selector: #selector(ViewController.randomizer3), userInfo: nil, repeats: true)
-        myTimer4 = Timer.scheduledTimer(timeInterval: repeater, target: self, selector: #selector(ViewController.randomizer4), userInfo: nil, repeats: true)
-        myTimer5 = Timer.scheduledTimer(timeInterval: repeater, target: self, selector: #selector(ViewController.randomizer5), userInfo: nil, repeats: true)
-        myTimer6 = Timer.scheduledTimer(timeInterval: repeater, target: self, selector: #selector(ViewController.randomizer6), userInfo: nil, repeats: true)
-        myTimer7 = Timer.scheduledTimer(timeInterval: repeater, target: self, selector: #selector(ViewController.randomizer7), userInfo: nil, repeats: true)
-        myTimer8 = Timer.scheduledTimer(timeInterval: repeater, target: self, selector: #selector(ViewController.randomizer8), userInfo: nil, repeats: true)
-        myTimer9 = Timer.scheduledTimer(timeInterval: repeater, target: self, selector: #selector(ViewController.randomizer9), userInfo: nil, repeats: true)
-        myTimer10 = Timer.scheduledTimer(timeInterval: repeater, target: self, selector: #selector(ViewController.randomizer10), userInfo: nil, repeats: true)
-        myTimer11 = Timer.scheduledTimer(timeInterval: repeater, target: self, selector: #selector(ViewController.randomizer11), userInfo: nil, repeats: true)
-        myTimer12 = Timer.scheduledTimer(timeInterval: repeater, target: self, selector: #selector(ViewController.randomizer12), userInfo: nil, repeats: true)
-        myTimer13 = Timer.scheduledTimer(timeInterval: repeater, target: self, selector: #selector(ViewController.randomizer13), userInfo: nil, repeats: true)
-        myTimer14 = Timer.scheduledTimer(timeInterval: repeater, target: self, selector: #selector(ViewController.randomizer14), userInfo: nil, repeats: true)
-        myTimer15 = Timer.scheduledTimer(timeInterval: repeater, target: self, selector: #selector(ViewController.randomizer15), userInfo: nil, repeats: true)
-        myTimer16 = Timer.scheduledTimer(timeInterval: repeater, target: self, selector: #selector(ViewController.randomizer16), userInfo: nil, repeats: true)
-        myTimer17 = Timer.scheduledTimer(timeInterval: repeater, target: self, selector: #selector(ViewController.randomizer17), userInfo: nil, repeats: true)
-        myTimer18 = Timer.scheduledTimer(timeInterval: repeater, target: self, selector: #selector(ViewController.randomizer18), userInfo: nil, repeats: true)
-        myTimer19 = Timer.scheduledTimer(timeInterval: repeater, target: self, selector: #selector(ViewController.randomizer19), userInfo: nil, repeats: true)
+    func startTimers(){
+        stopTimers()
+        for (index, value) in timers.enumerated() {
+            var selectorNumber = "randomizer" + index 
+            value.scheduledTimer(timeInterval: repeater, target: self, selector: Selector(selectorNumber), userInfo: nil, repeats: true)
+        }
     }
     
-    func stop(){
-        myTimer0.invalidate()
-        myTimer1.invalidate()
-        myTimer2.invalidate()
-        myTimer3.invalidate()
-        myTimer4.invalidate()
-        myTimer5.invalidate()
-        myTimer6.invalidate()
-        myTimer7.invalidate()
-        myTimer8.invalidate()
-        myTimer9.invalidate()
-        myTimer10.invalidate()
-        myTimer11.invalidate()
-        myTimer12.invalidate()
-        myTimer13.invalidate()
-        myTimer14.invalidate()
-        myTimer15.invalidate()
-        myTimer16.invalidate()
-        myTimer17.invalidate()
-        myTimer18.invalidate()
-        myTimer19.invalidate()
+    func stopTimers(){
+        for timer in timers {
+            timer.invalidate()
+        }
     }
     
 }
