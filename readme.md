@@ -1,7 +1,7 @@
 # Rand
 
 ## What is Rand?
-Rand is a simple **iOS** application that calculates a ***20*** digit *random* number. It is completely built in Swift so it is lightweight and *features* a **START** and a **STOP** button, that until now worked flawlessly.
+Rand is a simple **iOS** application that calculates a ***20*** digit *random* number. It is completely built in Swift so it is lightweight and *features* **two** buttons, a **START** and a **STOP** button, that until now worked flawlessly.
 
 ## CPU USAGE
 
@@ -18,17 +18,17 @@ Rand 3.0 Update
 
 ## Contributors
 * Miltos Katifedenios (Owner of this repo)
-* Vasilis Sakkas
+* Vasilis Sakkas (Contributor)
 
 ## FAQ
 
 - **How do I run this app?**
-    - First, you need to clone this repo, then you need to open it using the latest xCode, after that, select the device or emulator you want to run it and hit CMD + R.
+    - First, you need to clone this repo, then you need to open it using the latest xCode, after that, select the device or emulator you want to run it and hit CMD + R. (We suggest running the application with newer iOS versions)
 - **Is this project finished?**
-    - No, while the app is finished and works as expected, there are some tasks such as **code clean-up and refactor, improve UI, etc.** that are yet to be done. 
+    - No, while the app was finished and worked as expected, right now it needs to be updated to work with the newer versions of iOS, also there are some tasks such as **code clean-up and refactor, improve UI, etc.** that are yet to be done. 
 - **How can I help with the app?**
     - You can start by checking the **Projects** tab, to  see if there are is anything in the Todo list.
-    - Also, remember to keep the code clean. Pull Requests with ugly or slow code will not be merged.
+    - Also, remember to keep the code clean and robust. Pull Requests with low quality code will not be accepted.
 
 ## Want to contribute?
 
