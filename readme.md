@@ -1,5 +1,9 @@
 # Rand
 
+## Γλώσσες
+* **English**
+* <a href="https://github.com/miltoskat/Rand/blob/master/docs/translations/readme_gr.md" target="_blank">Ελληνικά</a>
+
 ## What is Rand?
 Rand is a simple **iOS** application that calculates a ***20*** digit *random* number. It is completely built in Swift so it is lightweight and *features* **two** buttons, a **START** and a **STOP** button, that until now worked flawlessly.
 
